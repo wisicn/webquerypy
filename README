@@ -1,0 +1,74 @@
+# $Id$
+# Copyright (C) 2009 by Wisilence Seol(wisicn AT gmail DOT com).
+#
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License
+# version 2 as published by the Free Software Foundation.
+#
+# You may obtain a copy of the License at:
+# http://www.gnu.org/licenses/gpl-2.0.html
+# 
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software 
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, 
+# MA 02110-1301, USA.
+Project Introduction
+--------------------------------------------------------------------
+
+The webqureypy is a web qurey tool written in Python, it can query 
+the useful information from the web and show it or send it to sms
+
+Author: Wisilence Seol ( wisicn AT gmail Dot com )
+
+Project Home Page: http://code.google.com/p/webquerypy/
+
+development mailing list: webquerypy-project-development@googlegroups.com
+
+Discuss group:
+https://groups.google.com/group/webquerypy-project-development/
+
+Questions, comments, feature requests ,bug report and patches are most welcome.
+
+
+
+Files/Modules Introduction
+--------------------------------------------------------------------
+This package contain the following files:
+
+handleHTTP.py: 
+	a module to fetch the raw html page from the web and use regexp 
+	to find the match lines
+
+LICENSE:
+	This project's License File.
+	
+PyFetion.py:
+	a 3rd part module ,it can use the China Mobile Fetion to send out the sms, 
+        from http://code.google.com/p/pytool/, thanks the author cocobear.cn.
+pySMS.py: 
+	a module to easily invoke  PyFetion and send out the sms
+README: 
+	this file
+sendSMS-sample.sh: 
+	a Bash shell script to invoke the smsWeathe.py to sendout the weather SMS,
+	just a sample
+smsWeather.py:
+	a module invoke the weatherQuery.py to get the weahter for a city,and sent it via PyFetion
+stockQuery.py:
+	a module to get a city's (cities') weather from http://www.weather.com.cn/ 
+weatherQuery.py
+        a module to get a stock's 'real time' price from http://www.google.com/finance
+
+
+
+
+Document
+--------------------------------------------------------------------
+see the wiki page in the project home page:
+http://code.google.com/p/webquerypy/w/list
+
