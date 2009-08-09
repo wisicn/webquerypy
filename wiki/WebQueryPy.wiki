@@ -15,7 +15,7 @@ The webqureypy is a web qurey tool written in Python, it can query the useful in
 
 ==Document:==
 
-Please see the wiki page or the README file.
+Please see the wiki page or the [http://code.google.com/p/webquerypy/source/browse/trunk/README README] file.
 
 ==Support:==
   * development mailing list: 
@@ -32,4 +32,3 @@ Wisilence Seol ( wisicn AT gmail Dot com )
 Thanks [http://code.google.com/u/cocobear.cn/ cocobear.cn(可可熊)'s] awesome [http://code.google.com/p/pytool/ PyFetion], so this project can send [http://en.wikipedia.org/wiki/SMS SMS] via [http://en.wikipedia.org/wiki/Fetion Fetion]
 
 Thanks every one who contribute or pay attention to this project.
-
