@@ -1,4 +1,5 @@
 #!/bin/bash
+# $Id$
 # Author: Wisilence Seol (wisicn AT gmail DOT com)
 # 
 # Copyright (C) 2009 by Wisilence Seol(wisicn AT gmail DOT com).
