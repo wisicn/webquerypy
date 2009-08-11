@@ -19,9 +19,9 @@ Please see the wiki page or the [http://code.google.com/p/webquerypy/source/brow
 
 ==Support:==
   * development mailing list: 
-  webquerypy-project-development@googlegroups.com
+  webquerypy-dev@googlegroups.com
   * Discuss group:
-  https://groups.google.com/group/webquerypy-project-development/
+  https://groups.google.com/group/webquerypy-dev
 
 Questions, comments, feature requests ,bug report and patches are most welcome.
 
