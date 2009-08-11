@@ -7,7 +7,7 @@ The webqureypy is a web qurey tool written in Python, it can query the useful in
 
   * a module to fetch the raw html page from the web and use regexp to find the match lines
 
-  * easily invoke !PyFetion and send out the [http://en.wikipedia.org/wiki/SMS SMS] in pure [http://en.wikipedia.org/wiki/Command_line_interface CLI],i.e. as a pure CLI [http://en.wikipedia.org/wiki/Fetion Fetion] client.
+  * easily invoke !PyFetion and send out the [http://en.wikipedia.org/wiki/SMS SMS] in  [http://en.wikipedia.org/wiki/Command_line_interface CLI], i.e. as a pure CLI [http://en.wikipedia.org/wiki/Fetion Fetion] client.
 
   * get a city's weather from http://www.weather.com.cn/, display as CSV format or send it via [http://en.wikipedia.org/wiki/SMS SMS]
 
@@ -31,4 +31,4 @@ Wisilence Seol ( wisicn AT gmail Dot com )
 ==Credit:==
 Thanks [http://code.google.com/u/cocobear.cn/ cocobear.cn(可可熊)'s] awesome [http://code.google.com/p/pytool/ PyFetion], so this project can send [http://en.wikipedia.org/wiki/SMS SMS] via [http://en.wikipedia.org/wiki/Fetion Fetion]
 
-Thanks every one who contribute or pay attention to this project.
+Thanks every one who contribute to or interest in this project.
