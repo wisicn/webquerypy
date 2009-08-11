@@ -7,11 +7,11 @@ The webqureypy is a web qurey tool written in Python, it can query the useful in
 
   * a module to fetch the raw html page from the web and use regexp to find the match lines
 
-  * easily invoke !PyFetion and send out the [http://en.wikipedia.org/wiki/SMS SMS] in pure [http://en.wikipedia.org/wiki/Command_line_interface CLI]
+  * easily invoke !PyFetion and send out the [http://en.wikipedia.org/wiki/SMS SMS] in pure [http://en.wikipedia.org/wiki/Command_line_interface CLI],i.e. as a pure CLI [http://en.wikipedia.org/wiki/Fetion Fetion] client.
 
   * get a city's weather from http://www.weather.com.cn/, display as CSV format or send it via [http://en.wikipedia.org/wiki/SMS SMS]
 
-  * get a stock's real-time price from [http://code.google.com/p/webquerypy/ Google Finance], display as CSV format or send it via [http://en.wikipedia.org/wiki/SMS SMS]
+  * get a stock's real-time price from [http://code.google.com/p/webquerypy/ Google Finance], display as CSV format.
 
 ==Document:==
 
