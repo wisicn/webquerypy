@@ -1,6 +1,4 @@
 #labels Featured,Phase-Support
-#Document Index page.
-
 = Document Index Page  =
 
 This page list all the module's document, for both end user and developer.
