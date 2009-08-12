@@ -21,4 +21,4 @@ Go to the [http://code.google.com/p/webquerypy/downloads/list Downloads] page of
 
 * get the page via Subversion:
 
-Go to the [http://code.google.com/p/webquerypy/source/checkout Source] page of this project and check out the source code with your favorite Subversion clients. 
+Go to the [http://code.google.com/p/webquerypy/source/checkout Source] page of this project and follow the instruction there. 
