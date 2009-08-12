@@ -15,7 +15,7 @@ The webqureypy is a web qurey tool written in Python, it can query the useful in
 
 ==Document:==
 
-Please see the wiki page or the [http://code.google.com/p/webquerypy/source/browse/trunk/README README] file.
+Please see the wiki [DocumentIndex] or the [http://code.google.com/p/webquerypy/source/browse/trunk/README README] file.
 
 ==Support:==
   * development mailing list: 
