@@ -29,8 +29,8 @@ import optparse
 
 globalWaitSeconds=1
 #global city url data and sms SubScriber data
-cityURL = {'shanghai':'http://www.weather.com.cn/html/weather/101020100.shtml',
-           'zibo':'http://www.weather.com.cn/html/weather/101120301.shtml'}
+cityURL = {'shanghai':'http://wap.weather.com.cn/wap/58367/h24/',
+           'zibo':'http://wap.weather.com.cn/wap/54830/h24/'}
 
 def getCityData(city):
 
@@ -43,26 +43,35 @@ def getCityData(city):
     timeStr=time.strftime('[%m-%d_%H:%M]')
     if htmlDateList:
 
-        if len(htmlDateList) > 100:
+        if len(htmlDateList) > 50:
             newLines=htmlDateList
 
-            matchStr,newLines=handleHTTP.getMatchHtmlLine(newLines,u'<h3><strong>')
+            matchStr,newLines=handleHTTP.getMatchHtmlLine(newLines,u'<div id=')
             if matchStr and len(newLines) > 1:
-                usefulLines.append(matchStr)
+                usefulLines.append(newLines[4])
 
-                matchStr,newLines=handleHTTP.getMatchHtmlLine(newLines,u'm_1_1')
+                matchStr,newLines=handleHTTP.getMatchHtmlLine(newLines[4:],u'<br')
                 if matchStr and len(newLines) > 1:
-                    usefulLines.append(matchStr)
+                    usefulLines.append(newLines[0])
 
-                    matchStr,newLines=handleHTTP.getMatchHtmlLine(newLines,u'<em><strong>')
+                    matchStr,newLines=handleHTTP.getMatchHtmlLine(newLines,u'<br')
                     if matchStr and len(newLines) > 1:
-                        usefulLines.append(matchStr)
+                        usefulLines.append(newLines[1])
 
                         matchStr,newLines=handleHTTP.getMatchHtmlLine(newLines,
-                                                                      u'<em class=')
+                                                                      u'<br')
                         if matchStr and len(newLines) > 1:
-                            usefulLines.append(matchStr)
                             usefulLines.append(newLines[0])
+                        
+                            matchStr,newLines=handleHTTP.getMatchHtmlLine(newLines,
+                                                                      u'<br')
+                            if matchStr and len(newLines) > 1:
+                                usefulLines.append(newLines[0])
+                                
+                                matchStr,newLines=handleHTTP.getMatchHtmlLine(newLines,
+                                                                      u'<br')
+                                if matchStr and len(newLines) > 1:
+                                    usefulLines.append(newLines[0])
 
     # remove all the /t and /n /r, then remove html tag
     usefulLines=handleHTTP.removeHtmlTags(usefulLines)
